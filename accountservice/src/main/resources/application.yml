@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    database: postgresql
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+    hibernate:
+      ddl-auto: update
+    properties:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/server_client_bases
+    platform: postgres
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: 7777
+#    localhost:8080/h2-console
