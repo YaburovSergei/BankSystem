@@ -9,7 +9,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class CustomerResponseDTO {
 
-    private BillRequestDTO billDTO;
+    private BillResponseDTO billDTO;
 
     private AccountDTO accountDTO;
 
